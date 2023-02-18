@@ -52,7 +52,6 @@ img{
   /* Requirement 7 code here -- Do not remove this comment. */
   grid-column: 1/span 3;
   max-height: 500px;
-  overflow:hidden;
 }
 
 
@@ -124,7 +123,7 @@ img{
 
   /* Requirement 15 code here -- Do not remove this comment. */
   .about-image, .clients-image, .method-image, .contact-image{
-    width: fit-content;
+  overflow: hidden;
   }
 }
 
