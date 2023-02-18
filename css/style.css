@@ -46,7 +46,9 @@ a.skip{
 img{
   /* Requirement 6 code here -- Do not remove this comment. */
   width: 100%;
+}
 
+.about-image, .clients-image, .method-image, .contact-image{
   /* Requirement 7 code here -- Do not remove this comment. */
   grid-column: 1/span 3;
   max-height: 500px;
